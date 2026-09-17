@@ -8,12 +8,12 @@
 docker pull nginx
 This command downloads the official Nginx Docker image.
 
-#### 2. Run the Nginx Container
+### 2. Run the Nginx Container
 docker run -d --name nginx-server -p 8080:80 nginx
 
 This command runs the Nginx container in detached mode and maps port 8080 on the host to port 80 in the container.
 
-##### 3. Test Nginx
+### 3. Test Nginx
 curl http://localhost:8080
 
 This command tests the Nginx server and displays the Nginx welcome page to confirm that it is running successfully.
