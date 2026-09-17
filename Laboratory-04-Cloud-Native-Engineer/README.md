@@ -14,15 +14,15 @@ This laboratory activity focuses on understanding the differences between tradit
 - Continue developing a GitHub Cloud Computing Portfolio.
 
 ## Docker Commands Executed
-docker --version
-docker info
-docker pull nginx
-docker run -d --name nginx-server -p 8080:80 nginx
-docker ps
-curl http://localhost:8080
-docker stop nginx-server
-docker ps -a
-docker rm nginx-server
+- docker --version
+- docker info
+- docker pull nginx
+- docker run -d --name nginx-server -p 8080:80 nginx
+- docker ps
+- curl http://localhost:8080
+- docker stop nginx-server
+- docker ps -a
+- docker rm nginx-server
 
 ## Skills Learned
 
