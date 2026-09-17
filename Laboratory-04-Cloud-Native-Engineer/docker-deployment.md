@@ -8,7 +8,7 @@
 docker pull nginx
 This command downloads the official Nginx Docker image.
 
-### 2. Run the Nginx Container
+Run the Nginx Container
 
 docker run -d --name nginx-server -p 8080:80 nginx
 
