@@ -1,8 +1,8 @@
 # Docker Deployment
 
-## Checkpoint 3 - Docker Environment
+## Checkpoint 4: Nginx Deployment
 
-### Check Docker Version
+### 1. Pull the Nginx Image
 
 ```bash
-docker --version
+docker pull nginx
